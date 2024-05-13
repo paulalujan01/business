@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Plan System</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <header>
+      <h1>BUSINESS PLAN SYSTEM</h1>
+    </header>
+    <hr />
+    <nav class="menu">
+      <ul class="menu-flex">
+        <li><a href="./">Inicio</a></li>
+        <li><a href="mision.html">Misión</a></li>
+        <li><a href="objetivos.html">Objetivos</a></li>
+        <li><a href="metodologia.html">Metodología</a></li>
+        <li><a href="resultados.html">Resultados</a></li>
+        <li><a href="contactenos.html">Contáctenos</a></li>
+        <li>
+          <a href="https://www.google.com.ar/?in=3" target="_blank">Google</a>
+        </li>
+      </ul>
+    </nav>
+    <hr />
+    <!--
+    <img src="./imagenes/negocios.jpg" alt="Business Plan System">
+    -->
+    <section class="principal">
+      <article class="principal-contenido">
+        <h2>EL SISTEMA MÁS PODEROSO Y UTILIZADO POR DIRECTIVOS</h2>
+        <div class="principal-icono">
+          <img src="./imagenes/location_on.svg" alt="" />
+          <p>
+            En sólo unos minutos y sin ningún conocimiento técnico previo, le
+            permitirá obtener su presupuesto de ingreso - gastos - cuentas de
+            resultados y objetivos detallados al nivel que usted desee. <br />
+            Asimismo le proporcionará el control, seguimiento, proyección y
+            simulación por cualquier concepto.
+          </p>
+        </div>
+        <a class="boton" href="#contacto">Contactar</a>
+      </article>
+    </section>
+    <main class="contenedor sombra">
+      <section class="servicios">
+        <article class="servicio">
+          <h3>MISIÓN</h3>
+          <div class="icono">
+            <img src="./imagenes/mision.svg" alt="" />
+          </div>
+          <p>
+            Estudios recientes demuestran que un de las principales causas en la
+            diferenciación de rendimientos en organizaciones de un mismo tamaño,
+            es la escasa o deficiente capacidad de comercialización. Para
+            incrementar dicha capacidad y por lo tanto su competitividad, los
+            responsables de ...
+          </p>
+          <a href="./mision.html" class="boton">Leer más</a>
+        </article>
+
+        <article class="servicio">
+          <h3>OBJETIVOS</h3>
+          <div class="icono">
+            <img src="./imagenes/settings.svg" alt="" />
+          </div>
+          <p>
+            Aportar al responsable de gestión un instrumento rápido, flexible
+            pero sobre todo sencillo de utilizar, que le permita cuantificar
+            todos los factores implicados directa o indirectamente en los
+            resultados y evaluar de forma instantánea el impacto de sus
+            decisiones.
+          </p>
+          <a href="./objetivos.html" class="boton">Leer más</a>
+        </article>
+
+        <article class="servicio">
+          <h3>METODOLOGÍA</h3>
+          <div class="icono">
+            <img src="./imagenes/check_circle.svg" alt="" />
+          </div>
+          <p>La metodología a seguir es la siguiente:</p>
+          <dl>
+            <dt>* Definimos nuestro modelo de negocios.</dt>
+            <dd>
+              El sistema no va guiando y permite acceder a una serie de casos ya
+              preparados de diferentes sectores.
+            </dd>
+            <dt>* Realizamos la entrada de datos.</dt>
+          </dl>
+          <a href="./metodologia.html" class="boton">Leer más</a>
+        </article>
+      </section>
+
+      <section>
+        <article>
+          <h2>RESULTADOS</h2>
+          <ul>
+            <li>
+              Un mayor dominio del negocio al poder identificar y definir los
+              objetivos en forma clara y concreta.
+            </li>
+            <li>
+              Cuantificar los recursos necesarios y la rentabilidad previsible.
+            </li>
+            <li>
+              Conocer los factores claves de su negocio y su participación en
+              resultados.
+            </li>
+            <li>Sistema Operativo: Windows 7 o superior. Precio U$300</li>
+            <li>
+              Requerimientos de Hardware: CPU Dual Core o superior – 2 GB RAM –
+              1GB de disco rígido.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="formulario" id="contacto">
+        <article>
+          <h2>CONTÁCTENOS</h2>
+          <form action="mailto:info@business.com" method="post">
+            <fieldset>
+              <legend>Por favor, complete el siguiente formulario:</legend>
+              <table class="contenedor-campos">
+                <tr class="campo">
+                  <td>
+                    <label for="nombre">NOMBRE</label>
+                  </td>
+                  <td>
+                    <input
+                      class="input-text"
+                      type="text"
+                      id="nombre"
+                      name="nombre"
+                      placeholder="Escriba su nombre"
+                    />
+                  </td>
+                </tr>
+                <tr class="campo">
+                  <td>
+                    <label for="">DIRECCION</label>
+                  </td>
+                  <td>
+                    <input
+                      class="input-text"
+                      type="text"
+                      id="direccion"
+                      name="direccion"
+                      placeholder="Calle y número"
+                    />
+                  </td>
+                </tr>
+                <tr class="campo">
+                  <td>
+                    <label for="telefono">TELEFONO</label>
+                  </td>
+                  <td>
+                    <input
+                      class="input-text"
+                      type="tel"
+                      id="telefono"
+                      name="telefono"
+                      placeholder="Sin 0 y sin 15"
+                    />
+                  </td>
+                </tr>
+                <tr class="campo">
+                  <td>
+                    <label for="mail">MAIL</label>
+                  </td>
+                  <td>
+                    <input
+                      class="input-text"
+                      type="email"
+                      id="mail"
+                      name="mail"
+                      placeholder="usuario@servidor.com"
+                    />
+                  </td>
+                </tr>
+                <tr class="campo">
+                  <td>
+                    <label for="localidad">LOCALIDAD</label>
+                  </td>
+                  <td>
+                    <input
+                      class="input-text"
+                      type="text"
+                      id="localidad"
+                      name="localidad"
+                      placeholder="Ingrese la localidad"
+                    />
+                  </td>
+                </tr>
+                <tr class="campo">
+                  <td>
+                    <label for="provincia">PROVINCIA</label>
+                  </td>
+                  <td>
+                    <input
+                      class="input-text"
+                      type="text"
+                      id="provincia"
+                      name="provincia"
+                      placeholder="Ingrese la provincia"
+                    />
+                  </td>
+                </tr>
+                <tr class="campo">
+                  <td>
+                    <label for="sexo">SEXO</label>
+                  </td>
+                  <td>
+                    <input
+                      class="input-text"
+                      type="radio"
+                      id="sexo"
+                      name="sexo"
+                      value="masculino"
+                    />Masculino<br />
+                    <input
+                      class="input-text"
+                      type="radio"
+                      id="sexo"
+                      name="sexo"
+                      value="femenino"
+                    />Femenino<br />
+                  </td>
+                </tr>
+                <tr class="campo">
+                  <td>
+                    <label for="formapago">FORMA DE PAGO</label>
+                  </td>
+                  <td>
+                    <select class="input-text" id="formapago" name="formapago">
+                      <option>Tarjeta</option>
+                      <option>Depósito Bancario</option>
+                      <option>Rapipago / Pago Fácil</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input class="boton" type="submit" value="Enviar" />
+                  </td>
+                  <td>
+                    <input class="boton" type="reset" value="Cancelar" />
+                  </td>
+                </tr>
+              </table>
+            </fieldset>
+          </form>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>Business Plan System - Todos los derechos reservados - 2024</p>
+    </footer>
+  </body>
+</html>
